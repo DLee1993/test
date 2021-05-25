@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #FAFAFA;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .intro_text {
+  width: 100%;
+}
+
+.container .intro_text p:first-of-type {
+  font-size: 1.5rem;
+  letter-spacing: 0.17px;
+  margin-top: 15px;
+  font-weight: 200;
+}
+
+.container .intro_text p:nth-child(2) {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.17px;
+  font-weight: 600;
+}
+
+.container .intro_text p:last-of-type {
+  font-size: 0.9rem;
+  margin: 20px auto;
+  min-width: 270px;
+  max-width: 540px;
+  font-weight: 400;
+}
+
+.container .boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  margin: 30px auto 0px auto;
+}
+
+.container .boxes .flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .boxes .box-1, .container .boxes .box-2, .container .boxes .box-3, .container .boxes .box-4 {
+  width: 311px;
+  height: 222px;
+  text-align: left;
+  border-radius: 5px;
+  margin: 15px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: 90% 90%;
+  background-size: 40px;
+}
+
+.container .boxes .box-1 h3, .container .boxes .box-1 p, .container .boxes .box-2 h3, .container .boxes .box-2 p, .container .boxes .box-3 h3, .container .boxes .box-3 p, .container .boxes .box-4 h3, .container .boxes .box-4 p {
+  padding: 20px 0px 0px 20px;
+}
+
+.container .boxes #supervisor {
+  border-top: 4px solid #44D3D2;
+  background-image: url("./assets/images/icon-supervisor.svg");
+}
+
+.container .boxes #builder {
+  border-top: 4px solid #EA5454;
+  background-image: url("./assets/images/icon-team-builder.svg");
+}
+
+.container .boxes #karma {
+  border-top: 4px solid #FCAE4A;
+  background-image: url("./assets/images/icon-karma.svg");
+}
+
+.container .boxes #calculator {
+  border-top: 4px solid #549EF2;
+  background-image: url("./assets/images/icon-calculator.svg");
+}
+
+@media (min-width: 850px) {
+  .container .boxes {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .container .box-1, .container .box-2, .container .box-3, .container .box-4 {
+    width: 350px;
+    height: 250px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
